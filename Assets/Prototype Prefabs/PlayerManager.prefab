@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &312656530492389430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312656530492389432}
+  - component: {fileID: 312656530492389431}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312656530492389432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312656530492389430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 575.106, y: 1100.3866, z: -1838.737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312656530492389431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312656530492389430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e797ae8370d221e4db326c0d27f0f95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  next_level_btn: {fileID: 0}
+  sp_button: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  power_panel: {fileID: 0}
+  start_auto: 0
+  startingText: {fileID: 0}
+  GemsText: {fileID: 0}
+  Enemies_killed: {fileID: 0}
+  Game_status: {fileID: 0}
+  powers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  game_over: {fileID: 8300000, guid: 44dc14082c4b149e8bd3c49b3b171df1, type: 3}
+  bg_auido: {fileID: 8300000, guid: 645bdc3bdbee3483fa7b0bfa21c7a98b, type: 3}
+  boss_audio: {fileID: 8300000, guid: 5d6e9a8c3f9d1439a9795c874c505a7c, type: 3}
+  level_audio: {fileID: 8300000, guid: 797eca4ac7a374f01a58a98aadb50bec, type: 3}
+  power_selection_sound: {fileID: 8300000, guid: 7dcde050659fb412c9247164a963b2de, type: 3}
+  camera_: {fileID: 0}
